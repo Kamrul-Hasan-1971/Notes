@@ -1,0 +1,29 @@
+New Project:
+----------------------------------------------
+
+npm install -g @angular/cli (First time)
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted (First time)
+ng new mean
+
+To add this project in github repo:
+----------------------------------------------
+
+git init
+git add . 
+git commit -m "Commit Initialize."
+git remote add origin https://github.comHasan-1971/MEAN.git //repo http link
+git push origin master
+git remote set-url origin https://githubrul-Hasan-1971/MEAN.git //update repo link
+
+
+Config to avoid issues:
+----------------------------------------------
+tsconfig.json:
+{
+	"strictPropertyInitialization": false,
+	"strictNullChecks":false,
+}
+
+Angular Material:
+------------------------------------------------
+https://www.freakyjolly.com/angular-material-how-to-install-angular-material-in-angular-project/
