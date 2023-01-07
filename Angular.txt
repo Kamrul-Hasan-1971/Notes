@@ -22,7 +22,8 @@ tsconfig.json:
 {
 	"strictPropertyInitialization": false,
 	"strictNullChecks":false,
-	"noImplicitAny": false
+	"noImplicitAny": false,
+	"noImplicitReturns": false,
 }
 
 Angular Material:
